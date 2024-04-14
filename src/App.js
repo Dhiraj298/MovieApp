@@ -11,7 +11,7 @@ app.use(cors());
 
 
 
-const api_Url = "http://www.omdbapi.com/?i=tt3896198&apikey=1d2906cd"
+const api_Url = "https://www.omdbapi.com/?i=tt3896198&apikey=1d2906cd"
 
 
 function App() {
