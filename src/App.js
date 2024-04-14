@@ -4,6 +4,12 @@ import './App.css';
 import SearchIcon from './search.svg'
 import MovieCard from './Moviecard';
 //1d2906cd
+const cors = require('cors');
+const express = require('express');
+const app = express();
+app.use(cors());
+
+
 
 const api_Url = "http://www.omdbapi.com/?i=tt3896198&apikey=1d2906cd"
 
